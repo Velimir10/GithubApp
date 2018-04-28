@@ -3,21 +3,17 @@ package fragments;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import adapters.FollowersRecyclerAdapter;
-import adapters.FollowingRecyclerAdapter;
-import model.GitHubFollower;
 import model.GitHubUser;
 import velimir.github.DetailUserActivity;
 import velimir.github.R;
@@ -30,7 +26,7 @@ public class UserFollowingFragment extends Fragment {
 
 
     private RecyclerView recyclerView;
-    private FollowingRecyclerAdapter adapter;
+    private FollowersRecyclerAdapter adapter;
     private List<GitHubUser> githubFollowingInfo = new ArrayList<>();
 
 
@@ -70,7 +66,7 @@ public class UserFollowingFragment extends Fragment {
         } else {
             recyclerView.setLayoutManager(new StaggeredGridLayoutManager(2, LinearLayoutManager.VERTICAL));
         }
-        adapter = new FollowingRecyclerAdapter(getContext(), githubFollowingInfo);
+        adapter = new FollowersRecyclerAdapter(getContext(), githubFollowingInfo);
         recyclerView.setAdapter(adapter);
     }
 
