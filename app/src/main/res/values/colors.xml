@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00C853</color>
+    <color name="colorPrimaryDark">#43A047</color>
+    <color name="colorAccent">#bdbdbd</color>
+
+
+    <color name="editText_borderColor">#BDBDBD</color>
+    <color name="button_signInColor">#00C853</color>
+    <color name="whiteColor">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="blue">#2962FF</color>
+    <color name="orange">#f79a43</color>
+    <color name="tabIndicator">#e5e5e5</color>
+</resources>

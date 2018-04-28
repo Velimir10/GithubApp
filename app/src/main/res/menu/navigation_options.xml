@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/optionsProfile"
+            android:icon="@drawable/ic_person_outline_black_24dp"
+            android:title="@string/drawer_profile" />
+        <item
+            android:id="@+id/optionsRepository"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="@string/drawer_repository" />
+        <item
+            android:id="@+id/optionsFollowers"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="@string/drawer_followers" />
+        <item
+            android:id="@+id/optionsFollowing"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="@string/drawer_following" />
+    </group>
+
+    <item android:title="@string/drawer_support">
+        <menu>
+            <item android:title="@string/drawer_aboutUs"/>
+            <item android:title="@string/drawer_feedback"/>
+        </menu>
+    </item>
+</menu>

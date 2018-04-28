@@ -1,0 +1,35 @@
+<resources>
+
+
+    <string name="app_name">GitHub</string>
+
+    <!--  Main Activity = Log in resources -->
+    <string name="github_title">Sign in to GitHub</string>
+    <string name="textView_username">Username</string>
+    <string name="logo_description">Github logo</string>
+    <string name="button_sign_in">Sign in</string>
+
+    <!-- Profile Activity -->
+    <string name="profile_description">Profile picture</string>
+    <string name="name">Name:</string>
+    <string name="login">Login:</string>
+    <string name="location">Location:</string>
+
+
+    <string name="drawerOpen">Navigation Drawer Open</string>
+    <string name="drawerClose">Navigation Drawer Close</string>
+
+    <!--  NavDrawer resources -->
+    <string name="drawer_profile">Profile</string>
+    <string name="drawer_repository">Repository</string>
+    <string name="drawer_followers">Followers</string>
+    <string name="drawer_following">Following</string>
+    <string name="drawer_support">Support</string>
+    <string name="drawer_aboutUs">About Us</string>
+    <string name="drawer_feedback">Feedback</string>
+
+    <string name="contentDescription">Profile avatar</string>
+
+
+
+</resources>
